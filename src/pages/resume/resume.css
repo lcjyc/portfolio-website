@@ -52,7 +52,7 @@
   left: 2vw;
 }
 
-.Rectangle {
+.rectangle {
   width: 26vw;
   height: 65vh;
   background-color: rgb(67, 116, 156, 0.7);
@@ -61,3 +61,24 @@
   left: 7vw;
   z-index: -1;
 }
+
+@media screen and (max-width: 480px) {
+  .table {
+    padding: 0;
+    margin: 10px;
+  }
+
+  .table > table > tr > td {
+    padding: 0.7rem;
+  }
+
+  .rectangle {
+    display: none;
+  }
+
+  .picture > img {
+    width: 300px;
+    left: 5vw;
+  }
+}
+

@@ -75,9 +75,9 @@ export default function Resume() {
         </table>
       </section>
 
-      <section class="picture">
+      <section className="picture">
         <img src={resumePic} alt="" />
-        <div class="Rectangle"></div>
+        <div className="rectangle"></div>
       </section>
     </div>
   );

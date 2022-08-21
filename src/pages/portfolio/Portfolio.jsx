@@ -45,7 +45,7 @@ const portfolio = () => {
             <br />
             They can pay the bill by Paypal or cash on delivery.
             <br />
-            Also, the coffee shop owner (admin account) can control the ordering
+            Also, owner of the shop (admin account) can control the ordering
             stage, and edit the product's information.
           </h3>
         </div>

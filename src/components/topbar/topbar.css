@@ -49,3 +49,28 @@
 .topListItem :hover {
   color: white;
 }
+
+@media screen and (max-width: 480px) {
+  .top {
+    height: 100px;
+    background-color: rgb(243, 217, 90);
+  }
+
+  .topLeft {
+    display: none;
+    z-index: -1;
+  }
+
+  .topList {
+    flex-direction: column;
+  }
+
+  .topListItem {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .github {
+    font-size: 20px;
+  }
+}

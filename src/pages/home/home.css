@@ -102,10 +102,27 @@
   }
 
   .i-left-wrapper {
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    padding: 15px;
     height: 100%;
   }
+
+  .i-img {
+    width: 300px;
+    height: 300px;
+    top: 10vh;
+    right: 15vw;
+  }
+
+  .i-desc {
+    padding-top: 20px;
+  }
+
+  .i-desc > p {
+    font-size: 1.3rem;
+  }
+
+  .i-bg {
+    display: none;
+  }
 }
+

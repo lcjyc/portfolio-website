@@ -39,3 +39,24 @@
   font-size: 14px;
   color: #888;
 }
+
+@media screen and (max-width: 480px) {
+  .portfolio {
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    width: 380px;
+  }
+
+  .img {
+    height: 350px;
+    width: 250px;
+  }
+
+  .desc {
+    width: 320px;
+    margin-bottom: 30px;
+  }
+}

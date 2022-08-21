@@ -1,0 +1,28 @@
+.portfolio {
+  display: flex;
+  height: 87vh;
+  width: 100%;
+  padding-top: 2vh;
+}
+
+.left,
+.right {
+  flex: 1;
+  padding: 30px;
+  display: block;
+  text-align: center;
+}
+
+.left > img {
+  height: 500px;
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.right > img {
+  height: 500px;
+  width: 350px;
+  display: block;
+  margin: auto;
+}

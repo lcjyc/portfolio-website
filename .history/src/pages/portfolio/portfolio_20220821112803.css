@@ -1,0 +1,6 @@
+.portfolio {
+  display: flex;
+  height: 87vh;
+  width: 100%;
+  padding-top: 2vh;
+}

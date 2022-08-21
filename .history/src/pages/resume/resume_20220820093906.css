@@ -1,0 +1,63 @@
+.resume {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3vh;
+}
+
+.table {
+  width: 70%;
+  flex: 3 1 600px;
+  padding: 0rem 2rem;
+  margin: 30px 0px 0px 30px;
+}
+
+.tabletop {
+  border-top: 2px solid gray;
+}
+
+.table > table {
+  border-collapse: collapse;
+}
+
+.table > table > tr {
+  border-bottom: 2px solid gray;
+  transition: all 0.2s ease;
+}
+
+.table > table > tr > td {
+  padding: 1rem;
+}
+
+.table > table > tr > td > h4 {
+  color: rgb(67, 116, 156);
+}
+
+.table > table > tr > td > ul > li {
+  font-weight: bold;
+}
+
+.table > table > tr:hover {
+  background-color: rgb(154, 179, 210, 0.5);
+}
+
+.picture {
+  flex: 1 1 500px;
+  position: relative;
+}
+
+.picture > img {
+  width: 26vw;
+  position: absolute;
+  top: 7vh;
+  left: 2vw;
+}
+
+.Rectangle {
+  width: 25vw;
+  height: 75vh;
+  background-color: rgb(190, 132, 90);
+  position: absolute;
+  top: 9vh;
+  left: 7vw;
+  z-index: -1;
+}
